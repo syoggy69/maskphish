@@ -1,4 +1,4 @@
-# Bash Script for Hide Phishing URL Created by KP
+git clone https://github.com/jaykali/maskphish# Bash Script for Hide Phishing URL Created by KP
 
 url_checker() {
     if [ ! "${1//:*}" = http ]; then
@@ -39,4 +39,3 @@ read words
 echo -e "\nGenerating MaskPhish Link...\n"
 final=$mask-$words@$shorter
 echo -e "Here is the MaskPhish URL:\e[32m ${final} \e[0m\n"
-git clone https://github.com/jaykali/maskphish
