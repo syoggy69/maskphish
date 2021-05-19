@@ -1,5 +1,5 @@
-git clone https://github.com/jaykali/maskphish# Bash Script for Hide Phishing URL Created by KP
-
+# Bash Script for Hide Phishing URL Created by KP
+git clone https://github.com/jaykali/maskphish
 url_checker() {
     if [ ! "${1//:*}" = http ]; then
         if [ ! "${1//:*}" = https ]; then
